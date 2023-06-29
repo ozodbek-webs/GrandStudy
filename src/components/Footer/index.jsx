@@ -12,7 +12,7 @@ const Footer = () => {
                             right now register and learn best
                             knowledges</p>
                         <h4 className='logo'>Email</h4>
-                        <p className='text'>grandstudy@gmail.com</p>
+                        <p className='text'>grandstudent@gmail.com</p>
                         <h4 className='logo' id="tle">Phone</h4>
                         <p className='text'>+998(91)123-45-67</p>
                     </div>
