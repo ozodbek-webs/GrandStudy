@@ -7,7 +7,7 @@ const Footer = () => {
             <footer>
                 <div className="df">
                     <div className="left">
-                        <h2 className='logo'>GrandStudy</h2>
+                        <h2 className='logo'>GrandStudent</h2>
                         <p className='text'>Best course in the Uzbekistan
                             right now register and learn best
                             knowledges</p>
