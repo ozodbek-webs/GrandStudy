@@ -6,7 +6,7 @@
 
 
 header {
-    height: 80px;
+    height: 150px;
     background: #2A313C;
     position: fixed;
     top: 0;
@@ -20,10 +20,15 @@ header {
         margin: 0 auto;
 
         .logo {
-            width: 80px;
-            height: 80px;
-            margin-top: -370px;
-        }
+            border-radius:50%;
+            width: 120px;
+            height: 120px;
+            margin-top: -330px;
+            -webkit-border-radius:50%;
+            -moz-border-radius:50%;
+            -ms-border-radius:50%;
+            -o-border-radius:50%;
+}
 
         .list {
             display: flex;
@@ -32,7 +37,7 @@ header {
             list-style-type: none;
 
             .item {
-                margin-top: 15px;
+                margin-top: 50px;
                 
                 .link {
                     color: white;
