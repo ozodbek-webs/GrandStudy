@@ -40,17 +40,17 @@ const Header = () => {
                 <input className="in" type="text" placeholder="Your Surname"
                     onChange={(e) => {
                         const name = document.querySelector(".SurName")
-                        name.innerHTML = `Name : ${e.target.value}`
+                        name.innerHTML = `Surname : ${e.target.value}`
                     }} />
                 <input className="in" type="text" placeholder="Your Phone"
                     onChange={(e) => {
                         const name = document.querySelector(".phone")
-                        name.innerHTML = `Name : ${e.target.value}`
+                        name.innerHTML = `Phone : ${e.target.value}`
                     }} />
                 <input className="in" type="text" placeholder="Your Chosen Course"
                     onChange={(e) => {
                         const name = document.querySelector(".course")
-                        name.innerHTML = `Name : ${e.target.value}`
+                        name.innerHTML = `Course : ${e.target.value}`
                     }} />
                 <button className="send" onClick={()=>{
                     const modal = document.querySelector(".release")
