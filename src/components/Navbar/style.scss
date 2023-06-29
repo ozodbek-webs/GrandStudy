@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 80px;
+    background: #2A313C;
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+        margin: 0 auto;
+
+        .logo {
+            margin-top: -370px;
+            color: gold;
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+            list-style-type: none;
+
+            .item {
+                margin-top: 15px;
+                
+                .link {
+                    color: white;
+                    text-decoration: none;
+
+                    select {
+                        color: white;
+                        background: #2A313C;
+                        margin-top: -10px;
+                        width: 74px;
+                        height: 35px;
+                        border: 2px solid rgb(178, 178, 178);
+                        border-radius: 10px;
+                        -webkit-border-radius: 10px;
+                        -moz-border-radius: 10px;
+                        -ms-border-radius: 10px;
+                        -o-border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+.ourTeacher{
+    text-align: center;
+}
