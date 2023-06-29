@@ -6,7 +6,7 @@
 
 
 header {
-    height: 150px;
+    height: 80px;
     background: #2A313C;
     position: fixed;
     top: 0;
@@ -19,26 +19,38 @@ header {
         width: 98%;
         margin: 0 auto;
 
+        .df {
+            margin-top: -30px;
+            display: flex;
+            justify-content: space-between;
+            width: 35%;
+        }
+
         .logo {
-            border-radius:50%;
-            width: 120px;
-            height: 120px;
-            margin-top: -330px;
-            -webkit-border-radius:50%;
-            -moz-border-radius:50%;
-            -ms-border-radius:50%;
-            -o-border-radius:50%;
-}
+            border-radius: 5px;
+            width: 150px;
+            height: 50px;
+            margin-top: 0px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+
+        .logoText {
+            color: #F4BF21;
+        }
 
         .list {
             display: flex;
             justify-content: space-between;
             width: 60%;
+            height: 80px;
             list-style-type: none;
 
-            .item {
-                margin-top: 50px;
-                
+            .items {
+                margin-top: 20px;
+
                 .link {
                     color: white;
                     text-decoration: none;
@@ -46,21 +58,18 @@ header {
                     select {
                         color: white;
                         background: #2A313C;
+                        outline: none;
                         margin-top: -10px;
                         width: 74px;
                         height: 35px;
-                        border: 2px solid rgb(178, 178, 178);
-                        border-radius: 10px;
-                        -webkit-border-radius: 10px;
-                        -moz-border-radius: 10px;
-                        -ms-border-radius: 10px;
-                        -o-border-radius: 10px;
+                        border: none;
                     }
                 }
             }
         }
     }
 }
-.ourTeacher{
+
+.ourTeacher {
     text-align: center;
 }
