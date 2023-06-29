@@ -1,11 +1,12 @@
 import React from 'react';
+import logo from '../../assets/images/logo.jpg';
 import './style.scss'
 const Navbar = () => {
     return (
         <header>
             <div className="container">
                 <nav className='navbar'>
-                    <h1 className='logo'>GrandStudent</h1>
+                    <img src={logo} className='logo' alt="GrandStudent" />
                     <ul className="list">
                         <li className="item"><a className='link' href="#">Home</a></li>
                         <li className="item"><a className='link' href="#about">About</a></li>
