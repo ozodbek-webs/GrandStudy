@@ -68,10 +68,14 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     box-shadow: 8px 8px 55px #F4BF21, -8px -8px 55px #F4BF21;
-    transition-duration: 3s;
-    transition-timing-function: ease;
-
-    .close {
+    // transition: display 2s;
+    // -webkit-transition: display 2s;
+    // -moz-transition: display 2s;
+    // -ms-transition: display 2s;
+    // -o-transition: display 2s;
+    transition-delay: 1s;
+    \\\\\\
+.close{
         margin-top: -2px;
         margin-left: 560px;
         width: 38px;
@@ -117,11 +121,14 @@
 }
 
 .hidden {
-    transform: translateX(-500%);
-    -webkit-transform: translateX(-500%);
-    -moz-transform: translateX(-500%);
-    -ms-transform: translateX(-500%);
-    -o-transform: translateX(-500%);
+    // transform: translateX(-500%);
+    // -webkit-transform: translateX(-500%);
+    // -moz-transform: translateX(-500%);
+    // -ms-transform: translateX(-500%);
+    // -o-transform: translateX(-500%);
+    display: none;
+    // width: 0;height: 0;
+
 }
 
 .release {
